@@ -8,7 +8,7 @@ start_hour  = "09:00"
 number_hours = "9"
 
 if(today.weekday()<6):
-	driver = webdriver.Chrome()
+	driver = webdriver.Firefox()
 	driver.get("https://docs.google.com/forms/d/1bnbH5z-qV_LCsg5I_mdkd1T5kK0L3UF5T3MFbwXaCYs/viewform?edit_requested=true#")
 	#assert "Python" in driver.title
 	element = driver.find_element_by_id("entry_444885743")
