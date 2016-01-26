@@ -6,6 +6,8 @@ today = datetime.datetime.now()
 str_today = str(today.day).zfill(2) + "/" + str(today.month).zfill(2) + "/" + str(today.year)
 start_hour  = "09:00"
 number_hours = "9"
+user = "plucena@br.ibm.com"
+pwd = "xxx"
 
 if(today.weekday()<6):
 	driver = webdriver.Firefox()
