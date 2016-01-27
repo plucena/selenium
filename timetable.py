@@ -11,7 +11,7 @@ start_hour  = "09:00"
 number_hours = "9"
 
 
-def submit_hours(user, passwd)
+def submit_hours(user, password):
 	if(today.weekday()<6):
 		driver = webdriver.Chrome()
 		driver.get(url)
